@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+        scroll-behavior: smooth;
+}
+
+h1{
+        color: tomato;
+        font-weight: bold;
+}
+
+img {
+        
+        border-top-right-radius: 14%;
+        border-top-left-radius: 14
+        border: 2px solid ;
+        height: 15%;
+        width: 8%;
+        margin-right: 8px;
+        padding-left:  8px;
+
+        padding-top: 4px; 
+            
+}
+
+nav {
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 70vh;
+        width: 100vw;
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        //flex-flow: column;
+        //background-color: rgba(103,57,48,0.50);
+        
+        padding: 5px;
+}
+
+ul{
+        margin-top: 8px;
+}
+
+ul li{
+        list-style: none;
+
+
+}
+
+ul li a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 1.1rem;
+        padding: 5px;
+        margin: 8px;
+
+       margin-left: 10px;
+}
+
+ul li a:hover {
+
+        background-color: rgba(11,95,200,0.50);
+        border-top-right-radius: 8px;
+        border-top-right-radius: 8px;
+        border: 1px solid transparant;
+        
+         
+}
+
+nav::before{
+        content: "";
+        position: absolute;
+        height:100%;
+        width: 100%;
+        left: 0;
+
+        top: 0;
+       
+        background: url(https://www.quoteinspector.com/media/car-insurance/car-insurance-0460505163-wo.jpg) 
+        no-repeat center center/cover;
+
+        z-index: -1;
+        opacity: 0.70;
+
+}
+
+section{
+        margin: 5px;
+        margin-top: 15px; 
+
+        display: block;
+        color: grey;
+        font-weight: bold;
+}
+input{
+        margin-top: 8px;
+   padding-top: 4px;
+}
+
+#search{
+       
+       position: absolute;
+       left: 183px;
+       top: 150px;
+}
+
+ button{
+                margin-left: 5px;
+                padding: 6px;
+                margin-bottom: 2px;
+                cursor: pointer;
+                border: 0px solid white;
+                background-color: tomato;
+                color: white;    
+                margin-bottom: 5px;  
+                border-bottom: 14px;      
+  }   
+  button:hover {
+                box-shadow: 1px 1px 2px 1px rgba(100,0,0,70%);
+
+        }
+
+        #insurance{
+                margin-top: 450px;
+                display: flex;
+                align-items: center;
+
+                margin-left: 75px;
+        }
+
+        .item{
+        
+                display: block;
+                margin-top: 2px;
+                margin-left: 100px;
+                border-top-right-radius: 24%;
+                border-bottom-left-radius: 14%;
+                border: 0px solid black;
+                padding: 34px;
+                cursor: pointer;
+                background-color: #579699 ;
+                
+        }
+        .item:hover{
+                transform: translate(0,15px);
+                color: white;
+
+        
+                transition-property: transform;
+                transition-duration: 1s;
+                transition-timing-function: ease-in-out;
+
+                transition-duration: background-color;
+                transition-duration: 2s;
+                transition-timing-function: ease-out;
+        
+                background-color: rgba(100,0,0,0.70);
+
+        }
+        ./*item::before{
+                content: "";
+                position: fixed;
+                top: 0;
+                left: 0;
+                background: url(https://extraupdate.com/wp-content/uploads/2017/08/life-insurance.jpg); 
+                height: 10%;
+                width: 10%;
+                z-index: -1;
+                opacity: 0.89;
+        /*}**/
+
